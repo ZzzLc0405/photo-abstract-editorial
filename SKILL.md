@@ -7,6 +7,12 @@ description: Create a clean, vertical editorial artwork that preserves an upload
 
 Create one finished image from one uploaded photograph. Keep the photograph faithful; derive the lower abstract panel only from the photograph's observed spatial, tonal, and color relationships.
 
+## Input Formats
+
+- Accept rendered raster inputs directly as JPEG/JPG, PNG, WebP, or a still GIF. If a GIF is animated, ask the user to choose or provide the intended frame.
+- Do not claim direct support for camera RAW, DNG, CR2/CR3, NEF, ARW, RAF, HEIC, TIFF, SVG, or PDF inputs. Preserve the supplied original unchanged and work from a neutrally rendered sRGB JPEG or PNG copy.
+- During conversion, do not apply creative color grading, retouching, generative expansion, or cropping. If the environment cannot make a reliable neutral conversion, ask the user for a rendered JPEG or PNG.
+
 ## Workflow
 
 1. Inspect the photograph internally. Identify three to six decisive spatial facts: subject relationships, scale, axes, direction, intervals, overlap, depth, rhythm, light, color roles, and negative space.
@@ -32,4 +38,4 @@ Read the appropriate full prompt before producing the image:
 - Chinese: [references/photo-abstract-editorial-prompt.zh-CN.md](references/photo-abstract-editorial-prompt.zh-CN.md)
 - English: [references/photo-abstract-editorial-prompt.en.md](references/photo-abstract-editorial-prompt.en.md)
 
-Use [assets/examples](assets/examples) as visual input examples only. Do not reuse their subject matter, colors, or composition unless the user supplies that exact image.
+Use [assets/examples](assets/examples) as finished-output references only; they are not input photographs or reusable templates. Read the [example guide](assets/examples/README.md) for the behavior each case demonstrates. Do not reuse their subject matter, colors, or composition unless the user supplies that exact image.

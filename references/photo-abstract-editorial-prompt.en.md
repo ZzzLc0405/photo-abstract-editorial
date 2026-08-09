@@ -166,6 +166,6 @@ Abstract marks may have slightly natural edges and handmade irregularity, but ne
 
 Output only one finished work joining the photograph and abstract panel.
 
-Apart from the final main title and optional subtitle, include absolutely no text, numbers, dates, serial numbers, location descriptions, color swatches, legends, signatures, logos, or watermarks.
+Preserve any text or numbers already present in the source photograph; do not remove or alter them. Apart from that source content and the final main title and optional subtitle, introduce absolutely no text, numbers, dates, serial numbers, location descriptions, color swatches, legends, signatures, logos, or watermarks.
 
 Strictly avoid photo redrawing, scene reconstruction, generative outpainting, a filtered look, posterized photographs, vector tracing, complete illustration, regularized infographics, generic icons, dense decoration, fabricated content, fabricated symmetry, non-uniform backgrounds, realistic small objects, excessive architectural detail, neatly capsule-shaped people, title-option lists, and extra text.
