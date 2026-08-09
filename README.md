@@ -43,6 +43,12 @@ The skill includes the complete prompt in both Chinese and English.
 - 中文版：[references/photo-abstract-editorial-prompt.zh-CN.md](references/photo-abstract-editorial-prompt.zh-CN.md)
 - English version: [references/photo-abstract-editorial-prompt.en.md](references/photo-abstract-editorial-prompt.en.md)
 
+## 支持的图片格式
+
+可直接使用常见的渲染后栅格图片：`JPEG` / `JPG`、`PNG`、`WebP` 和静态 `GIF`。如果 GIF 包含动画，请先选定并导出一个代表性帧。
+
+相机 RAW、`DNG`、`CR2` / `CR3`、`NEF`、`ARW`、`RAF`、`HEIC`、`TIFF`、`SVG` 和 `PDF` 不属于本 Skill 的直接输入格式。请先保留原文件不变，再导出一份中性、非破坏性的 sRGB `JPEG` 或 `PNG`：不得在转换时进行创意调色、修图、生成式扩展或裁切。若当前环境无法可靠转换，应请用户提供渲染后的 `JPEG` 或 `PNG`，而不是声称已直接处理原始格式。
+
 ## 可自由调整的部分
 
 这套提示词应当被视为高质量起点，而不是不可变的版式规范。请按自己的审美和项目需求修改以下参数：
@@ -67,7 +73,7 @@ photo-abstract-editorial/
 ├── references/
 │   ├── photo-abstract-editorial-prompt.zh-CN.md
 │   └── photo-abstract-editorial-prompt.en.md
-└── assets/examples/                 # 5 张示例图片
+└── assets/examples/                 # 5 张成品输出示例与说明
 ```
 
-`assets/examples` 中的图片仅用于理解预期输入类型；除非用户上传该图片本身，否则不要将其中的主题、色彩或构图复用于新的作品。
+`assets/examples` 中的图片是完整的成品输出参考，而不是待处理的输入照片。请参阅[示例说明](assets/examples/README.md)了解每张图片展示的规则。它们仅用于理解预期行为；不要将其中的主题、色彩或构图复用于新的作品。
