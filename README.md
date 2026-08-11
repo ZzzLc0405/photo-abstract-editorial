@@ -14,7 +14,7 @@ The skill includes the complete prompt in both Chinese and English.
 | 智能体 | 安装 / 使用 |
 | --- | --- |
 | OpenAI Codex | 将此文件夹复制到 `~/.codex/skills/`，上传一张照片后，请 Codex 使用 `photo-abstract-editorial`。 |
-| [Floatboat](https://floatboat.ai/zh/combostore/photo-abstract-editorial-1MTHgw) | 从 [Floatboat Combo Skill Store](https://floatboat.ai/zh/combostore/photo-abstract-editorial-1MTHgw) 安装 **photo-abstract-editorial**，上传一张照片后运行该 Combo Skill。 |
+| [Floatboat](https://floatboat.ai/zh/combostore/photo-abstract-editorial-3AtFwG) | 从 [Floatboat Combo Skill Store](https://floatboat.ai/zh/combostore/photo-abstract-editorial-3AtFwG) 安装 **photo-abstract-editorial**，上传一张照片后运行该 Combo Skill。 |
 
 ## 示例图片（原图均为本人拍摄）
 
@@ -52,7 +52,7 @@ The skill includes the complete prompt in both Chinese and English.
 
 ### 在 Floatboat 中使用
 
-1. 从 [Floatboat Combo Skill Store](https://floatboat.ai/zh/combostore/photo-abstract-editorial-1MTHgw) 安装 **photo-abstract-editorial**。
+1. 从 [Floatboat Combo Skill Store](https://floatboat.ai/zh/combostore/photo-abstract-editorial-3AtFwG) 安装 **photo-abstract-editorial**。
 2. 新建对话并上传一张希望处理的照片。
 3. 运行 **photo-abstract-editorial** Combo Skill，生成“原始摄影区域 + 抽象记忆面板 + 英文标题”的编辑作品。
 
