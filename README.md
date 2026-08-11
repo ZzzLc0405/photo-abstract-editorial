@@ -9,6 +9,13 @@ Free for personal, educational and non-commercial use. Commercial use requires p
 
 The skill includes the complete prompt in both Chinese and English.
 
+## 支持的智能体
+
+| 智能体 | 安装 / 使用 |
+| --- | --- |
+| OpenAI Codex | 将此文件夹复制到 `~/.codex/skills/`，上传一张照片后，请 Codex 使用 `photo-abstract-editorial`。 |
+| [Floatboat](https://floatboat.ai/zh/combostore/photo-abstract-editorial-1MTHgw) | 从 [Floatboat Combo Skill Store](https://floatboat.ai/zh/combostore/photo-abstract-editorial-1MTHgw) 安装 **photo-abstract-editorial**，上传一张照片后运行该 Combo Skill。 |
+
 ## 示例图片（原图均为本人拍摄）
 
 <!-- <table>
@@ -42,6 +49,14 @@ The skill includes the complete prompt in both Chinese and English.
    > 使用 `photo-abstract-editorial` 将这张照片制作成摄影与抽象面板组合的编辑作品。
 
 4. Skill 会将原图保留在成品的上方或主要区域，并在下方创建由原图关系推导出的极简抽象面板。成品中只保留一个原创英文标题（可选副标题）。
+
+### 在 Floatboat 中使用
+
+1. 从 [Floatboat Combo Skill Store](https://floatboat.ai/zh/combostore/photo-abstract-editorial-1MTHgw) 安装 **photo-abstract-editorial**。
+2. 新建对话并上传一张希望处理的照片。
+3. 运行 **photo-abstract-editorial** Combo Skill，生成“原始摄影区域 + 抽象记忆面板 + 英文标题”的编辑作品。
+
+无需手动复制 Skill 文件或粘贴提示词。
 
 也可以直接打开下列文件，并将其作为图像生成提示词使用：
 
